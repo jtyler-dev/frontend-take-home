@@ -1,0 +1,1 @@
+export const SEARCH_API_URL = 'https://api.npms.io/v2/search/suggestions?q=';
