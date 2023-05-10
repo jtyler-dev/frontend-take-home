@@ -3,7 +3,7 @@ import { SEARCH_API_URL } from '../../constants/ApiRoutes';
 
 export const SearchBar = ({ onSearchComplete, onError }) => {
 
-  // because this is a serach bar, we want to make sure that
+  // because this is a search bar, we want to make sure that
   // we memoize the function that we pass to the onSubmit
   // to reduce the number of times that the end point is hit
   const handleSearch = useMemo(() => {

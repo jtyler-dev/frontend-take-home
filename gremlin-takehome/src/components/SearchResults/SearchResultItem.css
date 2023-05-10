@@ -5,3 +5,10 @@
   border-bottom: 1px solid #ccc;
   width: 400px;
 }
+
+.PackageInfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
